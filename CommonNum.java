@@ -55,7 +55,7 @@ static void findCommon(int mat[][])
     for (Map.Entry<Integer,
                    Integer> ele : map.entrySet())
     {
-        if (ele.getValue() == R){
+        if (ele.getValue() >= R){
             fl++;
             arr[inc++] = ele.getKey();
         }
